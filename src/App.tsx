@@ -1,10 +1,9 @@
-import React from 'react';
-
+import CustomHead from './components/CustomHead';
 
 function App() {
   return (
     <div className="App">
-      Hello typescript
+      <CustomHead  text="hello"/>
     </div>
   );
 }
